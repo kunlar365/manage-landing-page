@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 13px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Be Vietnam', sans-serif;
+    color: #242D52;
+}
+
+/* Umumiy stillar */
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: #FCF6F5;
+    background: #F3603C;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: opacity 500ms ease;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+
+/* Main Header */
+
+.main-header {
+    padding: 18px 0;
+}
+
+.main-header .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav-link {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #9597A5;
+    font-size: 1rem;
+}
+
+
+/* Intro */
+
+.intro {
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 590px;
+}
+
+.intro button {
+    margin-top: 40px;
+}
+
+.intro-content {
+    width: 450px;
+}
+
+.intro .container {
+    display: flex;
+    padding-top: 172px 0;
+}
+
+.main-title {
+    font-size: 4.3rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    /* color: #2D314D; */
+}
+
+.page-text {
+    font-size: 1.28rem;
+    line-height: 2rem;
+    color: #9597A5;
+}
+
+.intro .img {
+    margin-left: 90px;
+}
+
+/* About us */
+
+.about-us {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 132px;
+    background: url('../img/bg2.png');
+    background-repeat: no-repeat;
+    height: 995px;
+}
+
+.about h2{
+    font-weight: 700;
+    font-size: 3.7rem;
+    margin: 0;
+}
+
+.about p {
+    font-size: 1.2rem;
+    opacity: 0.5;
+    width: 350px;
+}
+
+.ordered-list h3{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.ordered-list p{
+    font-size: 1.2rem;
+    opacity: 0.5;
+}
+
+.ordered-list {
+    counter-reset: list1-counter;
+}
+
+.list-item {
+    counter-increment: list1-counter;
+}
+
+.list-items {
+    width: 445px;
+    margin-bottom: 40px;
+}
+
+.ordered-list h3::before {
+    content: counter(list1-counter);
+    display: inline-block;
+    width: 67px;
+    height: 39px;
+    text-align: center;
+    line-height: 39px;
+    background-color: #F3603C;
+    border-radius: 39px;
+    color: white;
+}
+
+.about {
+    width: 535px;
+}
