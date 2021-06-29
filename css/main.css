@@ -50,7 +50,7 @@ a {
 /* Main Header */
 
 .main-header {
-    padding: 18px 0;
+    padding: 70px 0;
 }
 
 .main-header .row {
@@ -76,16 +76,11 @@ a {
     height: 590px;
 }
 
-.intro button {
-    margin-top: 40px;
-}
-
 .intro-content {
     width: 450px;
 }
 
 .intro .container {
-    display: flex;
     padding-top: 172px 0;
 }
 
@@ -131,6 +126,7 @@ a {
 
 .ordered-list h3{
     font-weight: 700;
+    position: relative;
     font-size: 1.2rem;
 }
 
@@ -153,8 +149,11 @@ a {
 }
 
 .ordered-list h3::before {
-    content: counter(list1-counter);
+    content: '0'counter(list1-counter);
     display: inline-block;
+    position: absolute;
+    right: 100%;
+    margin-right: 28px;
     width: 67px;
     height: 39px;
     text-align: center;
