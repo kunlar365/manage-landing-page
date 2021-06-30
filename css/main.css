@@ -53,6 +53,10 @@ a {
     padding: 70px 0;
 }
 
+.menu {
+    display: none;
+}
+
 .main-header .row {
     justify-content: space-between;
     align-items: center;
@@ -172,7 +176,6 @@ a {
 
 .about {
     width: 535px;
-    margin-right: 125px;
 }
 
 /* Comments */
@@ -340,4 +343,8 @@ footer .row {
 
 .your-email:focus ~ .form-error {
     visibility: visible;
+}
+
+.mobile-footer {
+    display: none;
 }
