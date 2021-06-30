@@ -19,6 +19,14 @@
         flex-wrap: wrap;
     }
 
+    .about {
+        margin-right: 110px;
+    }
+
+    .about-us {
+        margin-left: 670px;
+    }
+
     .ordered-list .list-items {
         width: 100%;
         padding: 0 100px;
