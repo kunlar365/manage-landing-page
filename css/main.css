@@ -106,7 +106,7 @@ a {
 .about-us {
     position: relative;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 250px;
 }
 
@@ -172,6 +172,7 @@ a {
 
 .about {
     width: 535px;
+    margin-right: 125px;
 }
 
 /* Comments */
