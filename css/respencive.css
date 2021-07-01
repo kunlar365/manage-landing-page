@@ -23,8 +23,6 @@
         margin-right: 110px;
     }
 
-    
-
     .ordered-list .list-items {
         width: 100%;
         padding: 0 100px;
@@ -76,6 +74,10 @@
         font-size: 2rem;
     }
 
+    .container {
+        padding: 0 20px;
+    }
+
     footer {
         padding: 60px 0
     }
@@ -108,10 +110,6 @@
 
     .intro .img {
         order: -1;
-    }
-
-    .intro {
-        margin-bottom: 380px;
     }
 
     .intro-content {
@@ -152,15 +150,18 @@
 
     .last-section h2 {
         width: 100%;
-        margin-top: 91px;
-        font-size: 3.7rem;
+        font-size: 2.7rem;
+    }
+
+    .container {
+        padding: 0 20px;
     }
 
     .button-get-started {
         display: inline-block;
         text-align: center;
         width: 100%;
-        margin-bottom: 91px;
+        margin-bottom: 30px;
     }
 
     footer .row {
@@ -171,6 +172,8 @@
         order: 3;
         width: 100%;
         text-align: center;
+        display: flex;
+        flex-direction: column;
     }
 
     .ordered-list:nth-child(1) {
@@ -187,14 +190,19 @@
         width: 100%;
         text-align: center;
     }
-    .ordered-list:not(:nth-child(1)) {
-        margin-left: 105px;
-    }
+
     .ordered-list:not(:nth-child(2)) {
         margin-bottom: 50px;
     }
-    .reserved p{
+
+    .reserved p {
         text-align: center;
+    }
+
+    .footer-logo {
+        margin-bottom: 0;
+        order: 2;
+        margin-top: 55px;
     }
 }
 
@@ -202,8 +210,13 @@
     .ordered-list .list-items {
         padding: 0 2px;
     }
+
     .intro {
         margin-bottom: 300px;
+    }
+
+    .container {
+        padding: 0 20px;
     }
 }
 
@@ -211,17 +224,27 @@
     .costumers .text {
         width: 420px;
     }
+
     .comments h2 {
         font-size: 2.4rem;
         margin-bottom: 62px;
     }
+
     .last-section {
         margin-top: 42px;
     }
+
     .about h2 {
         font-size: 2.3rem;
     }
+
     .ordered-list:not(:nth-child(1)) {
         margin-left: 0px;
+    }
+    .intro {
+        margin-bottom: 0;
+    }
+    .reserved p {
+        margin-top: 0;
     }
 }
