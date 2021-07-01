@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
 @import url(./style.css);
+
 * {
     box-sizing: border-box;
 }
@@ -126,7 +127,7 @@ a {
     z-index: 0
 }
 
-.about h2{
+.about h2 {
     font-weight: 700;
     font-size: 3.7rem;
     margin: 0;
@@ -138,13 +139,13 @@ a {
     width: 350px;
 }
 
-.ordered-list h3{
+.ordered-list h3 {
     font-weight: 700;
     position: relative;
     font-size: 1.2rem;
 }
 
-.ordered-list p{
+.ordered-list p {
     font-size: 1.2rem;
     opacity: 0.5;
 }
@@ -317,7 +318,8 @@ footer .row {
 }
 
 .button-submit:hover {
-    background: #F98F75;;
+    background: #F98F75;
+    ;
 }
 
 .reserved p {
@@ -338,7 +340,7 @@ footer .row {
     border: 2px solid #F33C3C;
 }
 
-.your-email:focus ~ .form-error {
+.your-email:focus~.form-error {
     visibility: visible;
 }
 
